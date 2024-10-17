@@ -10,6 +10,7 @@ public:
     // 成员函数
     std::string getName() const { return name; }         // 返回姓名
     std::string getAddress() const { return address; }   // 返回地址
+    friend std::ostream &print(std::ostream &os, const Person &p);
 
 private:
     std::string name;    // 姓名
