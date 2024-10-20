@@ -13,7 +13,6 @@ public:
     // Sales_data(const std::string &s) : bookNo(s) {}
 
     // 带书籍编号、销量、价格的构造函数
-    Sales_data(const std::string &s, unsigned n, double p) : bookNo(s), units_sold(n), revenue(p * n) {}
 
     // 带输入流的构造函数
     Sales_data(std::istream &is) {
